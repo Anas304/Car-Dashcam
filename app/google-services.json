@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "968638898012",
+    "project_id": "clonechatb",
+    "storage_bucket": "clonechatb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968638898012:android:d0d2c51dded15dbad92b99",
+        "android_client_info": {
+          "package_name": "com.abc.clone_chatb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968638898012-ajoburb3hb1uls0b166nd6cb0tk8aevo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abc.clone_chatb",
+            "certificate_hash": "bea38be136215973e7b97fcfc60e6328c98ab771"
+          }
+        },
+        {
+          "client_id": "968638898012-tmeqd626hor5oa8snhh3n2qin458sh82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwLVEM2EfJwgPo-3zpAvXXiNccq3ovLaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968638898012-tmeqd626hor5oa8snhh3n2qin458sh82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

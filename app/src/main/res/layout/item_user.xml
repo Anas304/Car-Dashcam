@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/profile_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:id="@+id/username_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="60dp"
+        />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/img_on"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_toEndOf="@id/profile_image"
+        android:layout_below="@id/username_list"
+        android:layout_marginStart="-25dp"
+        app:civ_border_color="@color/online"
+        app:civ_border_width="10dp"
+        android:visibility="gone" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/img_off"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_toEndOf="@id/profile_image"
+        android:layout_below="@id/username_list"
+        android:layout_marginStart="-25dp"
+        app:civ_border_color="@color/offline"
+        app:civ_border_width="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/last_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_list"
+        android:text="last message"
+        android:layout_marginStart="60dp"
+        />
+
+
+</RelativeLayout>
